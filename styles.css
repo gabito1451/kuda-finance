@@ -53,7 +53,9 @@ body {
   height: 76px;
   padding-top: 13px;
   margin: 0px auto;
-  
+  position: sticky;
+  top:0;
+  position: -webkit-sticky;
   z-index: 20000;
   background-color: var(--whiteColor);
 }
@@ -929,7 +931,7 @@ color: var(--blackColor);
   
   .purp{
     width:100%;
-    background: var(--overlay);
+    background: var(--offBlue);
     padding:20px ;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
