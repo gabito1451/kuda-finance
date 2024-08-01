@@ -928,7 +928,9 @@ color: var(--blackColor);
   }
 }
 @media screen and (max-width: 850px) {
-  
+  .lastsection{
+    box-shadow: none;
+  }
   .purp{
     width:100%;
     background: var(--offBlue);
@@ -1129,8 +1131,6 @@ color: var(--blackColor);
 .lastsection{
   padding:20px 0px;
   background-color: none;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
- 
 }
 }
 
