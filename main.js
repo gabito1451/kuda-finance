@@ -16,7 +16,7 @@ companyMenuItem.addEventListener("mouseover", (e) => {
   modalOverlay.style.opacity = "1";
 });
 
-modalOverlay.addEventListener("click", (e) => {
+modalOverlay.addEventListener("mouseover", (e) => {
   helpDropDown.style.display = "none";
   companyDropDown.style.display = "none";
   modalOverlay.style.opacity = "0";
