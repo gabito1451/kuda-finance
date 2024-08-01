@@ -759,10 +759,14 @@ td img {
 }
 /* div with light purple background*/
 .lastsection {
+  width:100%;
+  max-width: 1000px;
   padding-left: 50px;
   padding-right: 50px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   background-color: var(--offBlue);
+  margin: auto;
+  margin-top: 100px;
 }
 
 .lastsection button {
@@ -906,6 +910,7 @@ color: var(--blackColor);
 
 /* nav-bar styling */
 @media screen and (max-width: 990px) {
+
   .links,
   .kudaheader-extra-flex a,
   .kudaheader-extra-flex button {
@@ -926,6 +931,12 @@ color: var(--blackColor);
   .kudatext {
     padding-left: 20px;
   }
+  .lastsection{
+    width:100%;
+  }
+  .purpleimg img {
+    width:300px
+}
 }
 @media screen and (max-width: 850px) {
   .lastsection{
@@ -1052,8 +1063,6 @@ color: var(--blackColor);
     color: var(--primaryColor);
     font-family: "Inter" Arial, Helvetica, sans-serif;
     
-
-
   }
 
   .card p {
