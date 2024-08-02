@@ -513,9 +513,9 @@ li .menu-link {
 }
 
 /* last section clear as glass*/
-.eight {
+/* .eight {
   padding-left: 40px;
-}
+} */
 
 /* Center text */
 .center-text {
@@ -854,36 +854,38 @@ text-align: left;
   grid-template-columns: repeat(5, 1fr);
   gap: 50px;
   max-width: 1000px;
-  width:100%;
+  width: 100%;
   margin: auto;
   padding-left: 20px;
-  margin-top: 15px;
+  margin-top: 100px;
+  align-items: start;
 }
 
 .footer div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
 }
-.footer h3{
-font-family: Inter;
-font-size: 15.63px;
-font-weight: 700;
-line-height: 24px;
-text-align: left;
-color:var(--primaryAlt);
-margin-bottom: 20px;
+
+.footer h3 {
+  font-family: Inter;
+  font-size: 15.63px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: var(--primaryAlt);
+  margin-bottom: 20px;
 }
+
 .footer p {
   font-family: Inter;
-font-size: 13.56px;
-font-weight: 400;
-line-height: 21px;
-text-align: left;
-height:fit-content;
-max-height: 150px;
-color: var(--blackColor);
-
+  font-size: 13.56px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  height: fit-content;
+  max-height: 150px;
+  color: var(--blackColor);
 }
 
 .footer .contact-icons {
@@ -899,13 +901,15 @@ color: var(--blackColor);
 }
 
 .footer .contact-icons img {
-  height: auto;
+  width: 20px;
+  height: fit-content;
 }
-.footer .help-link{
-  color:var(--primaryAlt);
-  padding-bottom: 15px;;
-  
+
+.footer .help-link {
+  color: var(--primaryAlt);
+  padding-bottom: 15px;
 }
+
 /* footertext */
 .footertext{
   max-width: 1000px;
@@ -1324,6 +1328,7 @@ color: #979797;
   #kudalogoimg {
     display: none;
   }
+  
  
 }
 @media screen and (max-width: 550px){
