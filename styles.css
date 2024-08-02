@@ -15,9 +15,9 @@ body {
   height: 100%;
   display: none;
   opacity: 0;
-  transition: .9s all;
+  transition: 0.9s all;
   background: var(--overlay);
-} 
+}
 :root {
   --primaryColor: #40196d;
   --lightBlueColor: #1dcbef;
@@ -49,12 +49,17 @@ body {
   max-width: 1500px;
   padding-left: 60px;
   padding-right: 60px;
-  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px,
+    rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px,
+    rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+    rgba(42, 51, 70, 0.04) 0px 6px 6px -3px,
+    rgba(14, 63, 126, 0.04) 0px 12px 12px -6px,
+    rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
   height: 76px;
   padding-top: 13px;
   margin: 0px auto;
   position: sticky;
-  top:0;
+  top: 0;
   position: -webkit-sticky;
   z-index: 20000;
   background-color: var(--whiteColor);
@@ -62,8 +67,7 @@ body {
 navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
-  
+  align-items: center;
 }
 .kudamenu-main-flex {
   display: flex;
@@ -93,9 +97,9 @@ navbar {
   background: #fff;
   align-items: flex-start;
   width: fit-content;
-  border: 1px solid hsla(228, 7%, 87%, .5);
+  border: 1px solid hsla(228, 7%, 87%, 0.5);
   border-radius: 5px;
-  box-shadow: 15px 30px 40px rgba(64, 25, 109, .07);
+  box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
   padding: 20px 0;
   white-space: nowrap;
   height: fit-content;
@@ -109,35 +113,35 @@ navbar {
   background: #fff;
   align-items: flex-start;
   width: fit-content;
-  border: 1px solid hsla(228, 7%, 87%, .5);
+  border: 1px solid hsla(228, 7%, 87%, 0.5);
   border-radius: 5px;
-  box-shadow: 15px 30px 40px rgba(64, 25, 109, .07);
+  box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
   padding: 20px 0;
   white-space: nowrap;
   height: fit-content;
 }
 
 li .menu-link {
-    align-items: center;
-    border-radius: 5px;
-    color: #000;
-    text-decoration: none;
-    display: inline-flex;
-    font-size: .875rem !important;
-    font-weight: 500;
-    padding: 10px 0;
+  align-items: center;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 0.875rem !important;
+  font-weight: 500;
+  padding: 10px 0;
 }
 
 .helpDropDown li {
   list-style: none;
-    margin: 0 !important;
-    padding: 0 26px;
+  margin: 0 !important;
+  padding: 0 26px;
 }
 
 .companyDropDown li {
   list-style: none;
-    margin: 0 !important;
-    padding: 0 26px;
+  margin: 0 !important;
+  padding: 0 26px;
 }
 
 .links p {
@@ -162,8 +166,8 @@ li .menu-link {
 }
 .kudaheader-extra-flex button {
   height: 46px;
-  max-width: 136px;
-  min-width: 136px;
+  /* max-width: 136px;
+  min-width: 136px; */
   align-items: center;
   cursor: pointer;
   font-size: 16px;
@@ -190,10 +194,8 @@ li .menu-link {
   flex-direction: row;
   margin: auto;
   padding-left: 20px;
- 
-  /* margin-top: 100px; */
 
-  
+  /* margin-top: 100px; */
 }
 .kudatext {
   align-items: flex-start;
@@ -536,9 +538,7 @@ li .menu-link {
   font-size: 36px;
   font-weight: 900;
   line-height: 49.68px;
- 
 }
-
 
 /* marquee style */
 .marquee {
@@ -654,10 +654,11 @@ li .menu-link {
   padding: 20px;
   margin-top: 80px;
   max-width: 1000px;
-  width:100%;
-  margin :auto;
+  width: 100%;
+  margin: auto;
   padding-bottom: 40px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 table {
   width: 100%;
   border-collapse: var(--bgOffset);
@@ -666,7 +667,7 @@ table {
 
 th {
   padding: 30px 0px 30px 50px;
-  
+
   text-align: left;
   background-color: var(--whiteAlt);
   color: var(--primaryColor);
@@ -759,7 +760,7 @@ td img {
 }
 /* div with light purple background*/
 .lastsection {
-  width:100%;
+  width: 100%;
   max-width: 1000px;
   padding-left: 50px;
   padding-right: 50px;
@@ -797,13 +798,12 @@ td img {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 120px;
-  padding:20px;
+  padding: 20px;
 }
 
 .logoimg {
   grid-column: span 1;
   display: flex;
-  
 }
 
 .sect {
@@ -816,24 +816,21 @@ td img {
   color: var(--primaryAlt); /* Purple color for headers */
   margin: 0;
   font-family: Inter;
-font-size: 15.5px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
 }
 
 .sect a {
   color: #555;
   text-decoration: none;
   font-family: Inter;
-font-size: 13.56px;
-font-weight: 400;
-line-height: 18.2px;
-text-align: left;
-
+  font-size: 13.56px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
 }
-
 
 /* get app section/button image section */
 .get-app {
@@ -911,9 +908,9 @@ text-align: left;
 }
 
 /* footertext */
-.footertext{
+.footertext {
   max-width: 1000px;
-  width:100%;
+  width: 100%;
   margin: auto;
   padding-left: 20px;
   margin-top: 70px;
@@ -921,25 +918,24 @@ text-align: left;
 
 .footertext p {
   font-family: Inter;
-font-size: 11.56px;
-font-weight: 400;
-line-height: 19px;
-text-align: left;
-height:fit-content;
-max-height: 150px;
-color: #979797;
+  font-size: 11.56px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  height: fit-content;
+  max-height: 150px;
+  color: #979797;
 }
 
 /* nav-bar styling */
 @media screen and (max-width: 990px) {
-
   .links,
   .kudaheader-extra-flex a,
   .kudaheader-extra-flex button {
     display: none;
   }
   .nav-component {
-    width:100%;
+    width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
@@ -953,23 +949,22 @@ color: #979797;
   .kudatext {
     padding-left: 20px;
   }
-  .lastsection{
-    width:100%;
+  .lastsection {
+    width: 100%;
   }
   .purpleimg img {
-    width:300px
-}
+    width: 300px;
+  }
 }
 @media screen and (max-width: 850px) {
-  .lastsection{
+  .lastsection {
     box-shadow: none;
   }
-  .purp{
-    width:100%;
+  .purp {
+    width: 100%;
     background: var(--offBlue);
-    padding:20px ;
+    padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
   }
   .third-entry-component {
     flex-direction: column;
@@ -982,7 +977,7 @@ color: #979797;
   .eight {
     flex-direction: column-reverse;
   }
-  
+
   .txt-section h2 {
     text-align: center;
     padding-left: 30px;
@@ -1017,7 +1012,6 @@ color: #979797;
     margin: auto;
     margin-bottom: 70px;
   }
-  
 
   .column2 {
     margin-top: 100px;
@@ -1038,8 +1032,8 @@ color: #979797;
   .purpleimg {
     display: none;
   }
-  .lastsection{
-  background: #fff;
+  .lastsection {
+    background: #fff;
   }
   .lastsection button {
     display: flex;
@@ -1047,125 +1041,120 @@ color: #979797;
     justify-content: center;
     margin: 0px auto;
   }
-}
 
-@media (max-width: 760px) {
-  #grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-  }
-  #grid2 {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
-  }
+  @media (max-width: 760px) {
+    #grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+    }
+    #grid2 {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto auto;
+    }
 
-  #grid2 img:nth-child(5) {
-    grid-column: span 2;
-    justify-self: center;
-    width: 100px;
-    margin-top: 0px;
-    height: 120px;
-  }
+    #grid2 img:nth-child(5) {
+      grid-column: span 2;
+      justify-self: center;
+      width: 100px;
+      margin-top: 0px;
+      height: 120px;
+    }
 
-  .card {
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .card img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
-  }
+    .card {
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    .card img {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 10px;
+    }
 
-  .card h3 {
-    margin: 0 0 10px 0;
-    color: var(--primaryColor);
-    font-family: "Inter" Arial, Helvetica, sans-serif;
-    
-  }
+    .card h3 {
+      margin: 0 0 10px 0;
+      color: var(--primaryColor);
+      font-family: "Inter" Arial, Helvetica, sans-serif;
+    }
 
-  .card p {
-    color: var(--placeHolder);
-    margin: 0 0 20px 0;
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 18px;
-  }
+    .card p {
+      color: var(--placeHolder);
+      margin: 0 0 20px 0;
+      font-family: "Inter", Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 18px;
+    }
 
-  .card a {
-    font-size: 11.63px;
-    font-weight: 500;
-    line-height: 12px;
-  }
-/* purple background div */
-.purple-background{
-  margin-left: 50px;
-  margin-right: 50px;
-}
+    .card a {
+      font-size: 11.63px;
+      font-weight: 500;
+      line-height: 12px;
+    }
+    /* purple background div */
+    .purple-background {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
 
-/* footer div */
+    /* footer div */
 
-  .footer {
+    .footer {
       grid-template-columns: 1fr;
       text-align: center;
       padding-left: 20px;
+    }
+    .footer .help-link {
+      text-align: left;
+    }
+    .footer .contact-icons {
+      justify-content: left;
+    }
+
+    /* footer section */
+    .contain {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .sect {
+      margin-top: 40px;
+    }
+
+    .logoimg {
+      grid-column: span 2;
+    }
+
+    .personal {
+      grid-column: span 1;
+    }
+
+    .business {
+      grid-column: span 1;
+    }
+
+    .company {
+      grid-column: span 1;
+    }
+
+    .help {
+      grid-column: span 1;
+    }
+
+    .transparency {
+      grid-column: span 2;
+    }
+
+    .footer h3 {
+      margin-top: 10px;
+    }
+    .lastsection {
+      padding: 20px 0px;
+      background-color: none;
+    }
   }
-.footer .help-link{
-  text-align: left;
 }
-.footer .contact-icons{
-  justify-content: left;
-}
-
-
-  /* footer section */
-  .contain {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-.sect{
-  margin-top: 40px;
-}
-
-.logoimg {
-    grid-column: span 2;
-    
-}
-
-.personal {
-    grid-column: span 1;
-}
-
-.business {
-    grid-column: span 1;
-}
-
-.company {
-    grid-column: span 1;
-}
-
-.help {
-    grid-column: span 1;
-}
-
-.transparency {
-    grid-column: span 2;
-}
-
-.footer h3{
-  margin-top: 10px;
-}
-.lastsection{
-  padding:20px 0px;
-  background-color: none;
-}
-}
-
-
 
 @keyframes marquee {
   0% {
@@ -1205,7 +1194,6 @@ color: #979797;
   }
   .first-entry-component {
     flex-direction: column;
-    
   }
   .kudatext {
     margin: auto;
@@ -1224,10 +1212,10 @@ color: #979797;
     word-wrap: break-word;
     text-wrap: wrap;
   }
-  .kudaphone-img{
+  .kudaphone-img {
     margin-top: 50px;
   }
-  
+
   .kudatext .kudatext-paragraph-with-img {
     font-size: 10px;
     text-align: center;
@@ -1297,7 +1285,6 @@ color: #979797;
   .second-entry-component {
     padding: 0px 70px;
   }
-  
 }
 
 @media screen and (max-width: 390px) {
@@ -1319,7 +1306,6 @@ color: #979797;
   }
 }
 @media screen and (max-width: 940px) {
-  
 }
 
 /* THIRD/fourth entry LEVEL SMALL SCREEN SIZE */
@@ -1328,10 +1314,8 @@ color: #979797;
   #kudalogoimg {
     display: none;
   }
-  
- 
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
   td {
     padding: 5px 5px;
   }
@@ -1366,12 +1350,11 @@ color: #979797;
   .txt-section h3 {
     font-size: 25px;
   }
-  .get-app{
+  .get-app {
     margin-top: 50px;
   }
-  .get-app img{
-    width:80px;
+  .get-app img {
+    width: 80px;
     height: fit-content;
   }
 }
-
