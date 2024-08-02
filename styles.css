@@ -957,6 +957,9 @@ td img {
   }
 }
 @media screen and (max-width: 850px) {
+  .first-entry-component {
+    margin-top: 50px;
+  }
   .lastsection {
     box-shadow: none;
   }
