@@ -518,6 +518,10 @@ li .menu-link {
 /* .eight {
   padding-left: 40px;
 } */
+ /* last section */
+ .lastsection{
+  box-shadow: 15px 30px 40px 0px #40196D12;
+ }
 
 /* Center text */
 .center-text {
@@ -967,7 +971,7 @@ td img {
     width: 100%;
     background: var(--offBlue);
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: 15px 30px 40px 0px #40196D12;
   }
   .third-entry-component {
     flex-direction: column;
