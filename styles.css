@@ -382,7 +382,7 @@ li .menu-link {
 }
 .girl-img img {
   display: flex;
-  
+  width: 100%;
 }
 
 /* fourth section */
