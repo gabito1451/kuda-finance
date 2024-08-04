@@ -200,7 +200,7 @@ li .menu-link {
 .kudatext {
   align-items: flex-start;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
   flex: 1;
   max-width: 450px;
   width: 100%;
@@ -240,7 +240,7 @@ li .menu-link {
 .kudaphone-img img {
   width: 100%;
   align-items: center;
-  flex: 1;
+
 }
 
 /* Second entry style */
@@ -504,7 +504,7 @@ li .menu-link {
 }
 /* sixth-section */
 .third-entry-component .column1 img {
-  width: 439.2px;
+  width: 409.2px;
   height: 377.13px;
 }
 #col2 {
@@ -961,6 +961,9 @@ td img {
   }
 }
 @media screen and (max-width: 850px) {
+  .girl-img img {
+    width:400px;
+  }
   .first-entry-component {
     margin-top: 50px;
   }
@@ -1296,7 +1299,7 @@ td img {
 
 @media screen and (max-width: 390px) {
   .kudatext h1 {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     width: 100%;
   }
   .kudatext .kudatext-paragraph-with-img {
